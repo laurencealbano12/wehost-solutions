@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Nav from '../components/nav.js';
+import Logo from '../images/logo.png';
 
 export class header extends Component {
     render() {
@@ -7,7 +8,7 @@ export class header extends Component {
             <header>
                 <div className="wrapper">    
                     <div className="logo">
-                        <a href="index.html"><img src="../images/logo.png" alt="logo"/></a>
+                        <a href="index.html"><img src={Logo} alt="logo"/></a>
                     </div>
 
                     <Nav/>
