@@ -2,7 +2,7 @@
   "name": "wehost",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://laurencealbano12.github.io/we-host-solutions",
+  "homepage": "http://laurencealbano12.github.io/wehost-solutions",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
