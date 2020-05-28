@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/wehost-solutions/static/css/main.ed3a0baa.chunk.css",
+    "main.js": "/wehost-solutions/static/js/main.fc493f43.chunk.js",
+    "main.js.map": "/wehost-solutions/static/js/main.fc493f43.chunk.js.map",
+    "runtime-main.js": "/wehost-solutions/static/js/runtime-main.a0d54178.js",
+    "runtime-main.js.map": "/wehost-solutions/static/js/runtime-main.a0d54178.js.map",
+    "static/js/2.db86fcbc.chunk.js": "/wehost-solutions/static/js/2.db86fcbc.chunk.js",
+    "static/js/2.db86fcbc.chunk.js.map": "/wehost-solutions/static/js/2.db86fcbc.chunk.js.map",
+    "index.html": "/wehost-solutions/index.html",
+    "precache-manifest.3d819419c31a5b1b004a5e4d4d015432.js": "/wehost-solutions/precache-manifest.3d819419c31a5b1b004a5e4d4d015432.js",
+    "service-worker.js": "/wehost-solutions/service-worker.js",
+    "static/css/main.ed3a0baa.chunk.css.map": "/wehost-solutions/static/css/main.ed3a0baa.chunk.css.map",
+    "static/js/2.db86fcbc.chunk.js.LICENSE.txt": "/wehost-solutions/static/js/2.db86fcbc.chunk.js.LICENSE.txt",
+    "static/media/dev1.png": "/wehost-solutions/static/media/dev1.ceb026de.png",
+    "static/media/dev2.png": "/wehost-solutions/static/media/dev2.5c6a8722.png",
+    "static/media/dev3.png": "/wehost-solutions/static/media/dev3.36e013b0.png",
+    "static/media/dev4.png": "/wehost-solutions/static/media/dev4.e90d311a.png",
+    "static/media/logo.png": "/wehost-solutions/static/media/logo.7c2f49b4.png",
+    "static/media/App.scss": "/wehost-solutions/static/media/parallaxbtmbg3.cc652a35.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0d54178.js",
+    "static/js/2.db86fcbc.chunk.js",
+    "static/css/main.ed3a0baa.chunk.css",
+    "static/js/main.fc493f43.chunk.js"
+  ]
+}
