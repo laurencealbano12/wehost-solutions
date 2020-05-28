@@ -7,7 +7,7 @@ export class header extends Component {
             <header>
                 <div className="wrapper">    
                     <div className="logo">
-                        <a href="index.html"><img src="/images/logo.png" alt="logo"/></a>
+                        <a href="index.html"><img src="../images/logo.png" alt="logo"/></a>
                     </div>
 
                     <Nav/>
