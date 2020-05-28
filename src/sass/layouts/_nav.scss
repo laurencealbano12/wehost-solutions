@@ -1,0 +1,90 @@
+.hidden {display:none;}
+
+#nav_area {
+    position: absolute;
+    right:0;
+    top:0;
+    @media only screen and (max-width: 800px) {
+        float:none;
+        position: relative;
+    }
+    .nav_toggle_button {
+        display:none;
+        @media only screen and (max-width: 800px) {
+            position:absolute;
+            right:10px;
+            top:10px;
+            display:block;
+        }
+    }
+    nav {
+        &.isWeb {
+            float: right;
+
+            @media only screen and (max-width: 800px) {
+                display:none;
+            }
+
+            ul {
+                li {
+                    display: inline-block;
+                    vertical-align:top;
+                    margin:0 3px;
+                    
+                    line-height:30px;
+                    position: relative;
+    
+                    &:after {
+                        width:5px;
+                        height:5px;
+                        transform: rotate(-45deg) translateY(-50%);
+                        background:#fff;
+                        content:"";
+                        position:absolute;
+                        display:block;
+                        margin:0 auto;
+                        right:-7px;
+                        top:50%;
+                        
+                    }
+    
+                    &:last-child {
+                        &:after {
+                            display:none;
+                        }
+                    }
+                    a {
+                        color:#fff;
+                        line-height:70px;
+                        display:block;
+                        letter-spacing:2px;
+                        padding:0 15px;
+                        &:hover {
+                            color:$prim-color;
+                        }
+                    }
+                }
+            }
+        }
+        &.isMobile {
+            float: none;
+            position: relative;
+            top:69px;
+            ul {
+                li {
+                    display:block;
+                    width:100%;
+                    a {
+                        display:block;
+                        color:#fff;
+                        background:$prim-color;
+                        padding:15px 10px;
+                        &:hover {
+                            background:$opac-snd;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

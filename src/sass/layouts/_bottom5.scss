@@ -1,0 +1,90 @@
+#bottom5 {
+    background:url(/images/parallaxbtmbg5.jpg) no-repeat center top / cover;
+    background-attachment: fixed;
+    position: relative;
+    &:before {
+        content:"";
+        position:absolute;
+        left:0;
+        right:0;
+        top:0;
+        width:100%;
+        height:100%;
+        background: rgba(0,0,0,0.9);
+    }
+    .btm5_content {
+        min-height:500px;
+        padding:30px 10px;
+        @media only screen and (max-width:600px) {
+            min-height:0;
+            padding:30px 20px 70px 30px;
+        }
+        h4 {
+            @extend %sec_title;
+            span {
+                color:#fff;
+            }
+        }
+        .line_styler {
+            @extend %line_styler;
+        }
+        h5 {
+            color:#fff;
+            font-weight:300;
+            padding-bottom:20px;
+        }
+
+        form {
+            text-align:left;
+            input {
+                display: inline-block;
+                vertical-align:top;
+                height:45px;
+                font-family: 'Dosis', sans-serif;
+                border:none;
+                border-bottom:1px solid #fff;
+                background:none;
+                margin:0 5px 10px;
+                color:#fff;
+            }
+            input[type="text"],input[type="email"] {
+                height:45px;
+                line-height:45px;
+                width:48%;
+                @media only screen and (max-width:600px) {
+                    width:100%;
+                    margin:0 auto 10px;
+                }
+            }
+            input[type="text"]  {
+                float:right;
+            }
+            textarea {
+                resize:none;
+                height:80px;
+                font-family: 'Dosis', sans-serif;
+                border:none;
+                border-bottom:1px solid #fff;
+                background:none;
+                color:#fff;
+                width:100%;
+                margin:10px auto;
+            }
+            input[type="submit"] {
+                display:block;
+                background:$prim-color;
+                height:50px;
+                width:150px;
+                border-radius:5px;
+                margin:10px auto;
+                border:none;
+                color:#fff;
+                font-size:18px;
+                &:hover {
+                    background:$opac-snd;
+                    color:$bg-color;
+                }
+            }
+        }
+    }
+}

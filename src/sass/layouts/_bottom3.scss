@@ -1,0 +1,155 @@
+#bottom3 {
+    background:url(/images/parallaxbtmbg3.jpg) no-repeat center top;
+    background-attachment: fixed;
+    position: relative;
+    &:before {
+        content:"";
+        position:absolute;
+        left:0;
+        right:0;
+        top:0;
+        width:100%;
+        height:100%;
+        background: rgba(0,0,0,0.75);
+    }
+    .btm3_content {
+        padding-top:150px;
+        padding-bottom:150px;
+        @media only screen and (max-width:1000px) {
+            padding-top:100px;
+            padding-bottom:80px;
+        }
+        @media only screen and (max-width:420px) {
+            padding-bottom:40px;
+        }
+        h4 {
+            @extend %sec_title;
+            span {
+                color:#fff;
+            }
+        }
+        h5 {
+            color:#fff;
+            font-weight:300;
+            padding-bottom:20px;
+        }
+        .line_styler {
+            @extend %line_styler;
+        }
+
+        .workflow_content {
+            display:flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-top:20px;
+            [class^="wflow_box"] {
+                flex:0 0 25%;
+                max-width:25%;
+                color:#fff;
+                text-align:center;
+                color:#fff;
+                transition:all 0.4s linear;
+                @media only screen and (max-width:800px) {
+                    flex:0 0 50%;
+                    max-width:50%;
+                    margin:0 auto 20px;
+                }
+                @media only screen and (max-width:420px) {
+                    flex:0 0 100%;
+                    max-width:100%;
+                    margin:0 auto 20px;
+                }
+                p {
+                    padding:20px;
+                    line-height:25px;
+                }
+                &:hover {
+                    h3 {
+                        color:$prim-color;
+                    }
+                }
+                h3 {
+                    transition:all 0.3s linear;
+                    font-size:20px;
+                    font-weight:400;
+                    letter-spacing:2px;
+                    position: relative;
+                    color:#fff;
+                    &:before {
+                        transition:all 0.4s linear;
+                        content:"";
+                        display:block;
+                        margin:0 auto 15px;
+                        position: relative;
+                        width:60px;
+                        height:60px;
+                        background-position:center top;
+                        background-size:contain;
+                        background-repeat:no-repeat;
+                    }
+                }
+            }
+
+            /* Icons */
+            .wflow_box1 {
+                h3 {
+                    &:before {
+                        background-image:url(/images/icons/workflow1.png);
+                    }
+                }
+                &:hover {
+                    h3 {
+                        &:before {
+                            background-image:url(/images/icons/workflow1_hv.png);
+                        }
+                    } 
+                }
+            }
+            .wflow_box2 {
+                h3 {
+                    &:before {
+                        background-image:url(/images/icons/workflow2.png);
+                    }
+                }
+                &:hover {
+                    h3 {
+                        &:before {
+                            background-image:url(/images/icons/workflow2_hv.png);
+                        }
+                    } 
+                }
+            }
+            .wflow_box3 {
+                h3 {
+                    &:before {
+                        background-image:url(/images/icons/workflow3.png);
+                    }
+                }
+                &:hover {
+                    h3 {
+                        &:before {
+                            background-image:url(/images/icons/workflow3_hv.png);
+                        }
+                    } 
+                }
+            }
+            .wflow_box4 {
+                
+                h3 {
+                    &:before {
+                        background-image:url(/images/icons/workflow4.png);
+                    }
+                }
+                &:hover {
+                    h3 {
+                        &:before {
+                            background-image:url(/images/icons/workflow4_hv.png);
+                        }
+                    } 
+                }
+            }
+            /* End Icons */
+        }
+    }
+}

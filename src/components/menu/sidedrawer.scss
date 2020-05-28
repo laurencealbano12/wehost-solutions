@@ -1,0 +1,27 @@
+.side_drawer {
+    height:100%;
+    box-shadow:2px 0px 5px rgba(0,0,0,0.4);
+    position: fixed;
+    background:rgba(0,0,0,0.7);
+    right:0;
+    top:0;
+    width:70%;
+    max-width:300px;
+    z-index:120;
+    padding:40px 20px;
+    ul {
+        li {
+            display:inline-block;
+            width:100%;
+            text-align:left;
+            a {
+                color:#fff;
+                padding:10px;
+                display:inline-block;
+                &:hover,&:active {
+                    color:$prim-color;
+                }
+            }
+        }
+    }
+}

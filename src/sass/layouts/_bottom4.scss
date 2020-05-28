@@ -1,0 +1,97 @@
+#bottom4 {
+    background:$prim-color;
+    .btm4_content {
+        padding:80px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-items:center;
+        align-items: center;
+        @media only screen and (max-width:1000px) {
+            padding:40px;
+        }
+        @media only screen and (max-width:800px) {
+            padding:40px 20px;
+        }
+
+        [class^="btm4_box"] {
+            flex:0 0 50%;
+            max-width:50%;
+            justify-content:center;
+            color:#fff;
+            position: relative;
+            text-align:left;
+            @media only screen and (max-width:800px) {
+                flex:0 0 100%;
+                max-width:100%;
+                margin:0 auto 20px;
+                text-align:center;
+            }
+            p {
+                font-size:18px;
+            }
+        }
+        .btm4_box1 {
+            h4 {
+                font-size:45px;
+                @media only screen and (max-width:1280px) {
+                    font-size:40px;
+                }
+                @media only screen and (max-width:1000px) {
+                    font-size:30px;
+                }
+                @media only screen and (max-width:600px) {
+                    font-size:27px;
+                }
+                span {
+                    padding-top:10px;
+                    display:block;
+                    font-weight:300;
+                    font-size:18px;
+                }
+            }
+        }
+        .btm4_box2 {
+            form {
+                input {
+                    display: inline-block;
+                    vertical-align:top;
+                    height:45px;
+                    font-family: 'Dosis', sans-serif;
+                    border:none;
+                    border-radius:5px;
+                }
+                input[type="email"] {
+                    border:none;
+                    line-height:45px;
+                    width:58%;
+                    padding:0 10px;
+                    background:#fff;
+                    margin-right:10px;
+                }
+                input[type="submit"] {
+                    width:30%;
+                    background:$opac-snd;
+                    text-align:center;
+                    font-size:18px;
+                    font-weight:500;
+                    cursor: pointer;
+                    @media only screen and (max-width:800px) {
+                        font-size:16px;
+                    }
+                    &:hover {
+                        background:$bg-color;
+                        color:#fff;
+                    }
+                }
+            }
+            p {
+                padding-top:10px;
+                @media only screen and (max-width:800px) {
+                    padding-top:20px;
+
+                }
+            }
+        }
+    }
+
+}

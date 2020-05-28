@@ -1,0 +1,41 @@
+main {
+    background:$bg-color;
+    min-height:380px;
+    position: relative;
+    &:after {
+        content:"";
+        position:absolute;
+        left:0;
+        right:0;
+        bottom:-40px;
+        border-left: 700px solid transparent;
+        border-right: 700px solid transparent;
+        width: 0;
+        height: 0;
+        margin: 0 auto;
+        border-top:40px solid $bg-color;
+        z-index:1;
+        @media only screen and (max-width:1400px) {
+            border-right: 1400px solid transparent;
+            border-left:none;
+        }
+    }
+    .main_content {
+        padding:50px 10px;
+        color:#fff;
+        h4 {
+            @extend %sec_title;
+            span {
+                color:#fff;
+            }
+        }
+        .line_styler {
+         @extend %line_styler;
+        }
+        p {
+            line-height:28px;
+            font-size:18px;
+            margin-bottom:18px;
+        }
+    }
+}

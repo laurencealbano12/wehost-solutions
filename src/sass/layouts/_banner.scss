@@ -1,0 +1,108 @@
+#banner {
+    background:url(/images/parallaxbg.jpg) no-repeat center top / cover;
+    
+    position: relative;
+    &:after {
+        content:"";
+        position:absolute;
+        left:0;
+        right:0;
+        bottom:0;
+        border-left: 700px solid transparent;
+        border-right: 700px solid transparent;
+        width: 0;
+        height: 0;
+        margin: 0 auto;
+        border-bottom:40px solid $bg-color;
+        @media only screen and (max-width:1400px) {
+            border-left: 1400px solid transparent;
+            border-right:none;
+        }
+    }
+    .bnr_info {
+        height:950px;
+        @media only screen and (max-width:1000px) {
+            height:700px;
+        }
+        @media only screen and (max-width:6000px) {
+            height:600px;
+        }
+        .slogan {
+            color:#fff;
+            position: absolute;;
+            left:50%;
+            top:50%;
+            transform:translate(-50%,-50%);
+            margin:0 auto;
+            width:100%;
+            padding:10px;
+            h4 {
+                color:#fff;
+                font-size:65px;
+                font-weight:300;
+                @media only screen and (max-width:1000px) {
+                    font-size:40px;
+                }
+                span {
+                    color:$prim-color;
+                    font-weight:600;
+                }
+            }
+
+            p {
+                font-size:30px;
+                padding:50px 10px;
+                letter-spacing:2px;
+                @media only screen and (max-width:1000px) {
+                    padding:25px 10px;
+                    font-size:25px;
+                }
+            }
+
+            ul {
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                flex-wrap:wrap;
+                li {
+                    justify-content:center;
+                    max-width:22%;
+                    flex:0 0 22%;  
+                    margin:0 20px; 
+                    @media only screen and (max-width:1000px) {
+                        max-width:40%;
+                        flex:0 0 40%; 
+                        margin:0 10px; 
+                    }
+                    @media only screen and (max-width:600px) {
+                        max-width:100%;
+                        flex:0 0 100%; 
+                        margin:0 auto 10px; 
+                    }
+                    a {
+                        background:$prim-color;
+                        display:block;
+                        color:#fff;
+                        line-height:60px;
+                        font-size:18px;
+                        height:60px;
+                        border-radius:10px;
+                        &:hover {
+                            background-color:$opac-prim;
+                        }
+                    }
+                    &:last-child {
+                        a {
+                            color:$bg-color;
+                            background:$snd-color;
+                            &:hover {
+                                background-color:$opac-snd;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

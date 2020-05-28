@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+// Global Sass
+@import 'sass/global/reset';
+@import 'sass/global/settings';
+@import 'sass/global/extends';
+
+// Layouts Sass
+@import 'sass/layouts/header';
+@import 'sass/layouts/nav';
+@import 'sass/layouts/banner';
+@import 'sass/layouts/main';
+@import 'sass/layouts/bottom';
+@import 'sass/layouts/bottom2';
+@import 'sass/layouts/bottom3';
+@import 'sass/layouts/bottom4';
+@import 'sass/layouts/bottom5';
+@import 'sass/layouts/footer';

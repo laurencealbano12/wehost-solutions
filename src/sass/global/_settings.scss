@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&display=swap');
+
+body {font-size:16px;font-family: 'Dosis', sans-serif;font-weight:300; color:#404040;overflow-x: hidden;}
+
+html,body {
+    overflow-x:hidden;
+}
+
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 1280px;
+    max-width: 100%;
+    padding:0;
+}
+
+input[type="submit"] { cursor: pointer; }
+
+$text-color: #fff;
+$prim-color: #00A273;
+$snd-color: #abdfe1;
+$bg-color:#282c34;
+
+.comp {color:$prim-color;font-weight:600;}
+
+// hover colors
+$opac-prim:#3AB994;
+$opac-snd:#77dde1;

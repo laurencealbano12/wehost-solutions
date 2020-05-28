@@ -1,0 +1,174 @@
+#bottom2 {
+    background:$bg-color;
+    position: relative;
+    &:before {
+        content:"";
+        position:absolute;
+        left:0;
+        right:0;
+        top:-40px;
+        border-left: 700px solid transparent;
+        border-right: 700px solid transparent;
+        width: 0;
+        height: 0;
+        margin: 0 auto;
+        border-bottom:40px solid $bg-color;
+        z-index:1;
+        @media only screen and (max-width:1400px) {
+            border-left: 1400px solid transparent;
+            border-right:none;
+        }
+    }
+    &:after {
+        content:"";
+        position:absolute;
+        left:0;
+        right:0;
+        bottom:-40px;
+        border-left: 700px solid transparent;
+        border-right: 700px solid transparent;
+        width: 0;
+        height: 0;
+        margin: 0 auto;
+        border-top:40px solid $bg-color;
+        z-index:1;
+        @media only screen and (max-width:1400px) {
+            border-right: 1400px solid transparent;
+            border-left:none;
+        }
+    }
+    .btm2_content {
+        padding:50px 10px;
+        min-height:400px;
+        color:#fff;
+        @media only screen and (max-width:600px) {
+            min-height:0;
+        }
+        h4 {
+           @extend %sec_title;
+        }
+        h5 {
+            font-size:38px;
+            font-weight:500;
+            letter-spacing:2px;
+            @media only screen and (max-width:600px) {
+                font-size:29px;
+            }
+            span {
+                display:block;
+                font-size:18px;
+                padding-top:15px;
+                line-height:28px;
+                font-weight:300;
+            }
+        }
+        .line_styler {
+            @extend %line_styler;
+        }
+
+        .services_content {
+            display:flex;
+            align-items:flex-start;
+            justify-items:center;
+            position: relative;
+            flex-wrap:wrap;
+            padding-top:60px;
+            @media only screen and (max-width:600px) {
+                padding-top:40px;
+            }
+            [class^="service_box"] {
+                flex:0 0 50%;
+                max-width:50%;
+                position: relative;
+                padding-right:10px;
+                color:#fff;
+                justify-items: left;
+                text-align:left;
+                @media only screen and (max-width:1000px) {
+                    flex:0 0 50%;
+                    max-width:50%;
+                    padding:10px;
+                    text-align:center;
+                    margin:0 auto;
+                }
+                @media only screen and (max-width:600px) {
+                    flex:0 0 100%;
+                    max-width:100%;
+                }
+                h3 {
+                    font-size:20px;
+                    font-weight:300;
+                    padding-left:50px;
+                    margin-bottom:50px;
+                    position: relative;
+                    font-weight:400;
+                    letter-spacing:1px;
+                    line-height:26px;
+                    color:#fff;
+                    @media only screen and (max-width:1000px) {
+                        margin:0 auto;
+                        padding:0;
+                    }
+                    &:before {
+                        content:'';
+                        position: absolute;
+                        left:0;
+                        top:50%;
+                        transform:translateY(-50%);
+                        width:35px;
+                        height:35px;
+                        border-radius:5px;
+                        background-color:$prim-color;
+                        background-position:center 50%;
+                        background-repeat: no-repeat;
+                        @media only screen and (max-width:1000px) {
+                            display:block;
+                            margin:0 auto 10px;
+                            position: relative;
+                            top:0;
+                            transform:none;
+                        }
+                    }
+                    span {
+                        display:block;
+                        font-size:16px;
+                        padding-top:10px;
+                        font-weight:300;
+                    }
+                }
+
+            }
+
+            /* Icons */
+            .service_box1 {
+                h3 {
+                    &:before {
+                        background-image:url(/images/icons/icon1.png);
+                    }
+                }
+            }
+            .service_box2 {
+                h3 {
+                    &:before {
+                        background-image:url(/images/icons/icon2.png);
+                    }
+                }
+            }
+            .service_box3 {
+                h3 {
+                    &:before {
+                        background-image:url(/images/icons/icon3.png);
+                    }
+                }
+            }
+            .service_box4 {
+                h3 {
+                    &:before {
+                        background-image:url(/images/icons/icon4.png);
+                    }
+                }
+            }
+            /* End Icons */
+        }
+    }
+}

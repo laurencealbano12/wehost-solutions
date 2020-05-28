@@ -1,0 +1,24 @@
+header {
+    position: fixed;
+    min-height:70px;
+    background:#262626;
+    border-bottom:1px solid $prim-color;
+    left:0;
+    right:0;
+    top:0;
+    z-index:99;
+    .logo {
+        width:80px;
+        position:relative;
+        padding-top:20px;
+        @media only screen and (max-width: 800px) {
+            position: absolute;
+            left:10px;
+            top:0;
+        }
+    }
+
+    @media only screen and (max-width: 1280px) {
+        padding:0;
+    }
+}
