@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 
 /* Image Imports */
-import facebook from '../images/cfb.png';
-import instagram from '../images/cinsta.png';
-import linkedin from '../images/clinkedin.png';
-import twitter from '../images/ctwitter.png';
+import facebook from '../../images/cfb.png';
+import instagram from '../../images/cinsta.png';
+import linkedin from '../../images/clinkedin.png';
+import twitter from '../../images/ctwitter.png';
 
-import dev1 from '../images/team/dev1.png';
-import dev2 from '../images/team/dev2.png';
-import dev3 from '../images/team/dev3.png';
-import dev4 from '../images/team/dev4.png';
+import dev1 from '../../images/team/dev1.png';
+import dev2 from '../../images/team/dev2.png';
+import dev3 from '../../images/team/dev3.png';
+import dev4 from '../../images/team/dev4.png';
 /* End Image Imports */
 
 export class bottom extends Component {

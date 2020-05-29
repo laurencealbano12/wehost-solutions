@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Nav from '../components/nav.js';
-import Logo from '../images/logo.png';
+import Nav from '../../components/landingpage_sections/nav.js';
+import Logo from '../../images/logo.png';
 
 export class header extends Component {
     render() {
