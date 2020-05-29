@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/wehost-solutions/static/css/main.ed3a0baa.chunk.css",
-    "main.js": "/wehost-solutions/static/js/main.fc493f43.chunk.js",
-    "main.js.map": "/wehost-solutions/static/js/main.fc493f43.chunk.js.map",
+    "main.css": "/wehost-solutions/static/css/main.a25ebedb.chunk.css",
+    "main.js": "/wehost-solutions/static/js/main.97d8b93f.chunk.js",
+    "main.js.map": "/wehost-solutions/static/js/main.97d8b93f.chunk.js.map",
     "runtime-main.js": "/wehost-solutions/static/js/runtime-main.a0d54178.js",
     "runtime-main.js.map": "/wehost-solutions/static/js/runtime-main.a0d54178.js.map",
     "static/js/2.db86fcbc.chunk.js": "/wehost-solutions/static/js/2.db86fcbc.chunk.js",
     "static/js/2.db86fcbc.chunk.js.map": "/wehost-solutions/static/js/2.db86fcbc.chunk.js.map",
     "index.html": "/wehost-solutions/index.html",
-    "precache-manifest.3d819419c31a5b1b004a5e4d4d015432.js": "/wehost-solutions/precache-manifest.3d819419c31a5b1b004a5e4d4d015432.js",
+    "precache-manifest.d97a378f1780c39ab5ab67ed1dbfa10c.js": "/wehost-solutions/precache-manifest.d97a378f1780c39ab5ab67ed1dbfa10c.js",
     "service-worker.js": "/wehost-solutions/service-worker.js",
-    "static/css/main.ed3a0baa.chunk.css.map": "/wehost-solutions/static/css/main.ed3a0baa.chunk.css.map",
+    "static/css/main.a25ebedb.chunk.css.map": "/wehost-solutions/static/css/main.a25ebedb.chunk.css.map",
     "static/js/2.db86fcbc.chunk.js.LICENSE.txt": "/wehost-solutions/static/js/2.db86fcbc.chunk.js.LICENSE.txt",
     "static/media/dev1.png": "/wehost-solutions/static/media/dev1.ceb026de.png",
     "static/media/dev2.png": "/wehost-solutions/static/media/dev2.5c6a8722.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.a0d54178.js",
     "static/js/2.db86fcbc.chunk.js",
-    "static/css/main.ed3a0baa.chunk.css",
-    "static/js/main.fc493f43.chunk.js"
+    "static/css/main.a25ebedb.chunk.css",
+    "static/js/main.97d8b93f.chunk.js"
   ]
 }
