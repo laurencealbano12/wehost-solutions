@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wehost-solutions/static/css/main.a25ebedb.chunk.css",
-    "main.js": "/wehost-solutions/static/js/main.97d8b93f.chunk.js",
-    "main.js.map": "/wehost-solutions/static/js/main.97d8b93f.chunk.js.map",
+    "main.js": "/wehost-solutions/static/js/main.4945dffa.chunk.js",
+    "main.js.map": "/wehost-solutions/static/js/main.4945dffa.chunk.js.map",
     "runtime-main.js": "/wehost-solutions/static/js/runtime-main.a0d54178.js",
     "runtime-main.js.map": "/wehost-solutions/static/js/runtime-main.a0d54178.js.map",
     "static/js/2.db86fcbc.chunk.js": "/wehost-solutions/static/js/2.db86fcbc.chunk.js",
     "static/js/2.db86fcbc.chunk.js.map": "/wehost-solutions/static/js/2.db86fcbc.chunk.js.map",
     "index.html": "/wehost-solutions/index.html",
-    "precache-manifest.d97a378f1780c39ab5ab67ed1dbfa10c.js": "/wehost-solutions/precache-manifest.d97a378f1780c39ab5ab67ed1dbfa10c.js",
+    "precache-manifest.88a026f537fca85170f235fb25475b3e.js": "/wehost-solutions/precache-manifest.88a026f537fca85170f235fb25475b3e.js",
     "service-worker.js": "/wehost-solutions/service-worker.js",
     "static/css/main.a25ebedb.chunk.css.map": "/wehost-solutions/static/css/main.a25ebedb.chunk.css.map",
     "static/js/2.db86fcbc.chunk.js.LICENSE.txt": "/wehost-solutions/static/js/2.db86fcbc.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.a0d54178.js",
     "static/js/2.db86fcbc.chunk.js",
     "static/css/main.a25ebedb.chunk.css",
-    "static/js/main.97d8b93f.chunk.js"
+    "static/js/main.4945dffa.chunk.js"
   ]
 }
